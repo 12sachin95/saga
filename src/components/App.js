@@ -16,6 +16,7 @@ const App = ()=> {
 
   return (
     <>
+    <p>hello from redux</p>
       {isloading && <h1>loading.....</h1>}
       {items && items.map((value,index)=>(
         <h1 key={index}>{value.name}</h1>
