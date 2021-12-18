@@ -5,6 +5,7 @@ const initialState = {
   items: []
 };
 
+
 export const userReducer = (state = initialState, action) => {
   switch (action.type) {
     case Types.GET_USERS_REQUEST:
