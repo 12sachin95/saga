@@ -15,7 +15,6 @@ const App = ()=> {
   }, [dispatch]);
 
   return (
-
     <>
     <h3>hello redux</h3>
       {isloading && <h1>loading.....</h1>}
