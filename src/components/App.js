@@ -16,6 +16,7 @@ const App = ()=> {
 
   return (
     <>
+    <h1>hello from redux saga</h1>
     <p>hello from redux</p>
     <h3>hello from react</h3>
       {isloading && <h1>loading.....</h1>}
